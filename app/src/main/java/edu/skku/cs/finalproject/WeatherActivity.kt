@@ -76,7 +76,7 @@ class WeatherActivity : AppCompatActivity() {
             val client = OkHttpClient()
             val host = "https://api.weatherapi.com/v1/current.json"
 
-            val api_key="05f685ec606043abbd395641231005"
+            val api_key="apikey"
             val find_city=edText.text.toString()
             val path = "?key=" + api_key + "&q=" + find_city
             val req = Request.Builder().url(host+path).build()
