@@ -1,0 +1,79 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/v1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/v1TxT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BLUE"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/v2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/v2TxT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ORANGE"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/v3"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/v3TxT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="RED"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+    </FrameLayout>
+
+
+
+
+</merge>

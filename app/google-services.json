@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "363282305405",
+    "project_id": "travel-easy-9f048",
+    "storage_bucket": "travel-easy-9f048.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363282305405:android:953ddb5aee26ed5469bc14",
+        "android_client_info": {
+          "package_name": "edu.skku.cs.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363282305405-tqv61bva4td4naapc31hjrj5be2gs27o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.cs.finalproject",
+            "certificate_hash": "72006dd0400a84912b7ae7da9187e62bd21a8a36"
+          }
+        },
+        {
+          "client_id": "363282305405-8se735lvia2cbfddsgh85p4p5ti2pn3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIa2IsFQ7aEx9W6kGT6FOJnRmR3d3OviQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363282305405-8se735lvia2cbfddsgh85p4p5ti2pn3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
