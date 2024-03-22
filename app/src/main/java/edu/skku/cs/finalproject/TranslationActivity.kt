@@ -278,8 +278,8 @@ class TranslationActivity : AppCompatActivity() {
                 }
                 val body = RequestBody.create(JSON, json.toString())
                 val request = Request.Builder()
-                    .header("X-Naver-Client-Id", "M0sTuKhKGYLTkYqaFL7q")
-                    .addHeader("X-Naver-Client-Secret", "5U4Baa4hjE")
+                    .header("X-Naver-Client-Id", "NID")
+                    .addHeader("X-Naver-Client-Secret", "NSECRET")
                     .url(url)
                     .post(body)
                     .build()
