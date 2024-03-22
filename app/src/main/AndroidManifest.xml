@@ -19,8 +19,8 @@
             android:exported="false" />
 
         <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBkykON9lMZ5MWgmKdop3ndFbyhUrrBhI4" />
+            android:name="android name"
+            android:value="android value" />
 
         <activity
             android:name=".WeatherActivity"
